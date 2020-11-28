@@ -1,0 +1,9 @@
+{{#extends 'base'}}
+{{#block "content"}}
+{{#each movies}}
+<li>Title:{{this.title}}</li>
+<li>Plot:{{this.plot}}</li>
+<br>
+{{/each}}
+{{/block}}
+{{/extends}}

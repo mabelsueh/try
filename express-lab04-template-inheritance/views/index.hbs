@@ -1,0 +1,13 @@
+{{!-- #extends = refer to template --}}
+{{#extends 'base'}}
+
+{{#block 'title'}}
+Template Inheritance
+{{/block}}
+
+{{#block "content"}}
+    <h1>Hello</h1>
+    <p>This is a paragraph</p>
+    {{!-- test without html --}}
+{{/block}}
+{{/extends}}
